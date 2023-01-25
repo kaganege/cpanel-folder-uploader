@@ -1,2 +1,2 @@
-# cpanel-folder-uploader
-cPanel'e kolayca klasör yüklemenize yarar
+# cPanel Folder Uploader
+cPanel'e kolayca klasör yüklemenize yarar.
