@@ -2,12 +2,12 @@ import os
 from ftplib import FTP, error_perm, all_errors
 
 # url, kullanıcı e-postası, şifre
-ftp_datas = "", "", ""
+ftp_data = "", "", ""
 
-if not len(list(filter(lambda d: bool(len(d.strip())), ftp_datas))):
+if not len(list(filter(lambda d: bool(len(d.strip())), ftp_data))):
     print("FTP bilgilerini dosyadan kayıt edin!")
     exit()
-ftp = FTP(*ftp_datas)
+ftp = FTP(*ftp_data)
 
 def placeFiles(ftp, path):
     for name in os.listdir(path):
